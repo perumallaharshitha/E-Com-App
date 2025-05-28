@@ -1,0 +1,35 @@
+.footer {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #1da1f2;
+  }
+  
+  @media (max-width: 768px) {
+    .social-media-links {
+      gap: 10px;
+    }
+  }
+  

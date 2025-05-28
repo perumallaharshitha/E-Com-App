@@ -1,0 +1,121 @@
+/* Container for the registration page */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fa;
+    padding: 0 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  /* Card to hold the form */
+  .register-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Reduced max-width to make the form smaller */
+    box-sizing: border-box;
+  }
+  
+  /* Heading outside the form */
+  .register-heading {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.75rem; /* Adjusted heading size */
+    font-weight: 500;
+  }
+  
+  /* Form style */
+  .register-form .form-group {
+    margin-bottom: 12px; /* Reduced margin for a more compact look */
+  }
+  
+  .register-form .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .register-form .form-control {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    font-size: 0.95rem; /* Smaller font size */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .register-form .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit button style */
+  .register-form button {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    font-size: 1.1rem; /* Adjusted font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  /* Hover state for button */
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-form .text-danger {
+    font-size: 0.85rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-3 {
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .register-card {
+      padding: 15px; /* Adjusted padding */
+      max-width: 90%;
+      margin: 0 15px;
+    }
+  
+    .register-form .form-group {
+      margin-bottom: 10px; /* Reduced margin */
+    }
+  
+    .register-form button {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .register-card {
+      padding: 10px;
+      max-width: 95%;
+    }
+  
+    .register-form .form-control {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .register-form button {
+      padding: 10px;
+      font-size: 1rem;
+    }
+  }
+  

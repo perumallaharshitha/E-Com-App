@@ -1,0 +1,42 @@
+.header {
+    background-color: #ff5733;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.header img {
+    width: auto;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex; /* Flexbox container */
+    justify-content: space-between; /* Space between links */
+    gap: 20px; /* Optional: add some space between each link */
+}
+
+.header-right a {
+    color: #fff;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header-right.btn {
+    font-size: 1rem;
+}
+.header-right a:hover {
+    color: #17a2b8;
+}
+

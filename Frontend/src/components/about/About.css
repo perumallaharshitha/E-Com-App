@@ -1,0 +1,12 @@
+.text-justify {
+    text-align: justify;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
